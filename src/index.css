@@ -1,0 +1,89 @@
+footer {
+  background-color: #333;
+  padding-top: 25px;
+  text-align: center;
+  color: white;
+}
+.mnu_pizza {
+  text-align: center;
+}
+.tit_header,
+p {
+  text-align: center;
+}
+/* Css carro de compra*/
+
+.cart {
+  padding: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.pizza {
+  width: 100px;
+}
+.pizza-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.pizza-details {
+  margin-left: 20px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-controls button {
+  margin: 0 5px;
+}
+
+.total {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+
+.pay-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f0ad4e;
+  border: none;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.pay-button:hover {
+  background-color: #ec971f;
+}
+.pizza-carro {
+  width: 55px;
+  height: 55px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid #000; /* Puedes cambiar el color o el estilo del borde según tu preferencia */
+  border-radius: 5px; /* Opcional: para bordes redondeados */
+  background-color: #f5f5f5; /* Opcional: para un fondo de color diferente */
+}
+
+.header-title {
+  margin: 0;
+}
+
+.products,
+.cart-content {
+  margin-top: 20px; /* Añade un margen superior para separar el contenido del encabezado */
+}
+
+/* Agrega más estilos según sea necesario */
